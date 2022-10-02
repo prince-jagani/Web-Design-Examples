@@ -1,0 +1,32 @@
+body{
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.main{
+    position: absolute;
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 3px, solid silver;
+}
+.profile{
+    padding: 0 0 20px 0 ;
+    margin: 10px;
+    text-align: center;
+}
+.profile input[type="text"]{
+    text-align: center;
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

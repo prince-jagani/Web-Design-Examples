@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Login - FormEx</title>
+        <link rel="stylesheet" href="css/form.css">
+        <script src="js/data.js"></script>
+    </head>
+    <body>
+        <div class="center">
+            <h1>Login Here !</h1>
+            <form action="profile.html" method="GET" onsubmit="return validateForm()" name="form">
+                <div class="txt_field">
+                    <input type="text" id="txtName" name="txtName"   required  >
+                    <span></span>
+                    <label>Username</label>
+                    
+                </div>
+        <div class="txt_field">
+                    <input type="password" id="txtPass" name="txtPass"   required  >
+                    <span></span>
+                    <label>Password</label>
+                    
+                </div>
+        <div class="pass" onclick="resetPass()">Forgot Password?</div>
+        <input type="submit" name="submit" id="submitBtn" value="Login"/>  
+        <div class="signup_link">Not a Member? <a href="">Sign Up</a> </div>      
+            </form>
+        </div>
+        <div class="extra">
+            <h3>Follow Us :</h3>
+                <h3><a href="http://google.com">Google</a>&nbsp;
+                <a href="http://facebook.com">Facebook</a>&nbsp;
+                <a href="http://youtube.com">YouTube</a>&nbsp;
+            </h3>
+            
+        </div>
+    </body>
+</html>
