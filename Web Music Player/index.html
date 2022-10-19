@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+        <link href="css/style.css" rel="stylesheet">
+
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="player">
+                <!-- music player component -->
+                <audio id="music-player">      
+                </audio>
+                
+                <h2 id="music-name" class="music-name">Song Name</h2>
+                <p id="music-info" class="music-info">Song Info</p>
+
+                <!-- progress -->
+                <div class="progress">
+                    <div class="progress-seconds">
+                        <span id="player-time">--:--</span>
+                        <span id="player-duration">--:--</span>
+                    </div>
+                    <progress id="progress-bar"></progress>
+                </div>
+
+                <!-- controller -->
+                <div class="music-controller">
+                    <button id="btn-prev" class="btn btn-prev">
+                        <i class="bi bi-rewind-fill"></i>
+                    </button>
+                    <button id="btn-play" class="btn btn-play">
+                        <i class="bi bi-play-fill" id="btn-play-ico"></i>
+                    </button>
+                    <button id="btn-next" class="btn btn-next">
+                        <i class="bi bi-fast-forward-fill"></i>
+                    </button>
+                </div>
+            </div>
+        </div>   
+        
+        <!-- JavaScript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
