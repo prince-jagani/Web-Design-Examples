@@ -37,6 +37,11 @@ const musics = [
     author: "Anne-Marie",
     path: "../songs/Anne-Marie_-_2002.mp3",
   },
+  {
+    name: "Animals",
+    author: "Martin Garrix",
+    path: "../songs/Martin_Garrix_-_Animals_Official_V_(getmp3.pro).mp3",
+  },
 ];
 
 btnPlay.addEventListener("click", () => togglePlayMusic());
