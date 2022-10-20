@@ -15,32 +15,32 @@ const musics = [
   {
     name: "Dandelions",
     author: "Ruth B.",
-    path: "../songs/Ruth_B_-_Dandelions.mp3",
+    path: "https://prince-jagani.github.io/HTML-Examples/Web%20Music%20Player/songs/Ruth_B_-_Dandelions.mp3",
   },
   {
     name: "Closer",
     author: "Chainsmokers, Halsey",
-    path: "../songs/The_Chainsmokers_-_Closer.mp3",
+    path: "https://prince-jagani.github.io/HTML-Examples/Web%20Music%20Player/songs/The_Chainsmokers_-_Closer.mp3",
   },
   {
     name: "Levitating",
     author: "Dua Lipa",
-    path: "../songs/Dua_Lipa_-_Levitating.mp3",
+    path: "https://prince-jagani.github.io/HTML-Examples/Web%20Music%20Player/songs/Dua_Lipa_-_Levitating.mp3",
   },
   {
     name: "How You Like That",
     author: "BLACKPINK",
-    path: "../songs/BLACKPINK_-_How_You_Like_That.mp3",
+    path: "https://prince-jagani.github.io/HTML-Examples/Web%20Music%20Player/songs/BLACKPINK_-_How_You_Like_That.mp3",
   },
   {
     name: "2002",
     author: "Anne-Marie",
-    path: "../songs/Anne-Marie_-_2002.mp3",
+    path: "https://prince-jagani.github.io/HTML-Examples/Web%20Music%20Player/songs/Anne-Marie_-_2002.mp3",
   },
   {
     name: "Animals",
     author: "Martin Garrix",
-    path: "../songs/Martin_Garrix_-_Animals_Official_V_(getmp3.pro).mp3",
+    path: "https://prince-jagani.github.io/HTML-Examples/Web%20Music%20Player/songs/Martin_Garrix_-_Animals_Official_V_(getmp3.pro).mp3",
   },
 ];
 
