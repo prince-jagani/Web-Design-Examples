@@ -5,3 +5,6 @@
 ##### Output for [Parallax Scrolling](https://prince-jagani.github.io/HTML-Examples/Parallax%20Scrolling/)
 ##### Outout for [Online E-Store Example](https://prince-jagani.github.io/HTML-Examples/School%20E-Store%20Example/)
 ##### Output for [Simple CSS Form](https://prince-jagani.github.io/HTML-Examples/Simple%20CSS%20Form/form.html)
+
+
+> Source code for all examples are available completely on GitHub...
