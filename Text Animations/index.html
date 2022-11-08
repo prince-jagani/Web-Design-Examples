@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .container{
+                display: flex;
+                justify-content: center;
+                margin-top: 200px;
+                font-size: 100px;
+            }
+            .text-holder{
+                position: relative;
+            }
+            .text-holder span{
+                position: relative;
+                display: inline-block;
+                animation: flip 3s infinite;
+                animation-delay: calc(.2s * var(--i));
+            }
+            @keyframes flip {
+                0%,80%{
+                    transform: rotateY(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="text-holder">
+                <span style="--i:1">H</span>
+                <span style="--i:2">E</span>
+                <span style="--i:3">L</span>
+                <span style="--i:4">L</span>
+                <span style="--i:5">O</span>
+                <span style="--i:6">&nbsp;&nbsp;</span>
+                <span style="--i:7">W</span>
+                <span style="--i:8">E</span>
+                <span style="--i:9">B</span>
+                <span style="--i:10">!</span>
+            </div>
+        </div>
+    </body>
+</html>
