@@ -1,5 +1,6 @@
-# HTML-Examples
+# Web-Design-Examples
 >Have a look on diffrent HTML Webpages Examples and get known with HTML CSS and javascript easily and Quickly...
+## Here are some Front-End Webpage designs with HTML and CSS mainly
 
 ### Visit [Home Page](https://prince-jagani.github.io/HTML-Examples/)
 ***
