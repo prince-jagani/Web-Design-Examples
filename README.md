@@ -21,6 +21,8 @@
 - Basic layout for online E-Store UI
 
 #### Output for [Simple CSS Form](https://prince-jagani.github.io/Web-Design-Examples/Simple%20CSS%20Form/form.html)
+- Simple Login/Sign Up Form with HTML/CSS/JS including some basic Animations
 
 
+>
 > Source code for all examples are available completely on GitHub...
