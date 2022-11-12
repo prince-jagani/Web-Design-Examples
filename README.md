@@ -18,6 +18,8 @@
 - Text Animation(Rotating Text) with CSS Keyframes Animations
 
 #### Outout for [Online E-Store Example](https://prince-jagani.github.io/Web-Design-Examples/School%20E-Store%20Example/)
+- Basic layout for online E-Store UI
+
 #### Output for [Simple CSS Form](https://prince-jagani.github.io/Web-Design-Examples/Simple%20CSS%20Form/form.html)
 
 
