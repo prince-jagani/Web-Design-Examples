@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li><button id="nav-btn-1" onclick="checkIndex(this.id)">Clock
+                        <span id="selector-line"><hr></button></span>
+                    </li>
+                    <li><button id="nav-btn-2" onclick="checkIndex(this.id)">Stopwatch
+                        <span id="selector-line"><hr></button></span>
+                    </li>
+                    <li><button id="nav-btn-3" onclick="checkIndex(this.id)">Timer
+                        <span id="selector-line"><hr></button></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="clock-main" id="id-clock">
+                <span class="hour" id="txt-hr">00<span class="time-hint">Hours</span></span>
+                <span>:</span>
+                <span class="min" id="txt-min">00<span class="time-hint">Minutes</span></span>
+                <span>:</span>
+                <span class="sec" id="txt-sec">00<span class="time-hint">Seconds</span></span>
+                <span id="id-msec-colon">:</span>
+                <span class="milisec" id="txt-msec">00<span class="time-hint">ms</span></span>
+                <div class="stopwatch-strt-btn" style="display: none;">
+                    <button type="button" onclick="startStopwatch()" id="strt-stp-btn">Start</button>
+                    <button type="button" onclick="resetStopWatch()">Reset</button>
+                </div>
+                <div class="timer-setter" style="display: none;">
+                    <input type="time" name="time-input" id="id-time-input" step="3">
+                    <button type="button" onclick="startTimer()" id="strt-timer-btn">Start</button>
+                    <button type="button" onclick="resetTimer()">Reset</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
