@@ -14,9 +14,11 @@
 #### Output for [Parallax Scrolling](https://prince-jagani.github.io/Web-Design-Examples/Parallax%20Scrolling/)
 - Parallax Scrolling that makes webpage more attreactive... With Code given in page
 
-##### Output for [Text Animations](https://prince-jagani.github.io/Web-Design-Examples/Text%20Animations)
-##### Outout for [Online E-Store Example](https://prince-jagani.github.io/Web-Design-Examples/School%20E-Store%20Example/)
-##### Output for [Simple CSS Form](https://prince-jagani.github.io/Web-Design-Examples/Simple%20CSS%20Form/form.html)
+#### Output for [Text Animations](https://prince-jagani.github.io/Web-Design-Examples/Text%20Animations)
+- Text Animation(Rotating Text) with CSS Keyframes Animations
+
+#### Outout for [Online E-Store Example](https://prince-jagani.github.io/Web-Design-Examples/School%20E-Store%20Example/)
+#### Output for [Simple CSS Form](https://prince-jagani.github.io/Web-Design-Examples/Simple%20CSS%20Form/form.html)
 
 
 > Source code for all examples are available completely on GitHub...
