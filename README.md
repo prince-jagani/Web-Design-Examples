@@ -5,7 +5,7 @@
 ### Visit [Home Page](https://prince-jagani.github.io/Web-Design-Examples/)
 ***
 
-##### Output for [Clock Example]()
+##### Output for [Clock Example](https://prince-jagani.github.io/Web-Design-Examples/Clock%20Example/)
 ##### Output for [Web Music Player](https://prince-jagani.github.io/Web-Design-Examples/Web%20Music%20Player/)
 ##### Output for [Parallax Scrolling](https://prince-jagani.github.io/Web-Design-Examples/Parallax%20Scrolling/)
 ##### Output for [Text Animations](https://prince-jagani.github.io/Web-Design-Examples/Text%20Animations)
