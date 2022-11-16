@@ -1,12 +1,9 @@
 body{
     margin: auto;
-    width: 100%;
-}
-.container{
-    width: 100%;
 }
 .navigation{
     display: flex;
+    width: max-content;
     justify-content: center;
 }
 #selector-line hr{
@@ -33,6 +30,7 @@ li button{
 .clock-main{
     display: flex;
     padding-top: 100px;
+    width: max-content;
     justify-content: center;
     font-size: 7em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -60,7 +58,7 @@ li button{
 #id-stopwatch .stopwatch-strt-btn{
     display: block !important; 
     position: absolute;
-    bottom: 20%;
+    bottom: 15%;
 }
 .stopwatch-strt-btn button{
     width: 100px;
@@ -76,7 +74,7 @@ li button{
 #id-timer .timer-setter{
     display: block !important;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
 }
 #id-time-input{
     height: 50px;
