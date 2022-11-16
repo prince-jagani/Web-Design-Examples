@@ -20,7 +20,7 @@ function checkIndex(btn_id)
     // alert(btn_id);
     switch(btn_id){
         case "nav-btn-1":{
-            clockIndex = 1;
+            // clockIndex = 1;
             document.getElementsByClassName("clock-main")[0].id = "id-clock";
             clearInterval(updatorClock);
             updatorClock = setInterval(worldClock, 1000);
