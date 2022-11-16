@@ -3,7 +3,6 @@ body{
 }
 .navigation{
     display: flex;
-    width: max-content;
     justify-content: center;
 }
 @media only screen and (max-width: 768px){
