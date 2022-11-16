@@ -6,6 +6,13 @@ body{
     width: max-content;
     justify-content: center;
 }
+@media only screen and (max-width: 768px){
+    .navigation{
+    display: flex;
+    width: max-content;
+    justify-content: center;
+}
+}
 #selector-line hr{
     width: match-parent;
     background: black;
@@ -34,6 +41,16 @@ li button{
     justify-content: center;
     font-size: 7em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media only screen and (max-width: 768px){
+    .clock-main{
+    display: flex;
+    padding-top: 100px;
+    width: max-content;
+    justify-content: center;
+    font-size: 7em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 }
 .clock-main .hour,.min,.sec,.milisec{
     position: relative;
