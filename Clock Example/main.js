@@ -1,4 +1,4 @@
-var clockIndex = 1;
+// var clockIndex = 1;
 
 var stopwatch_m=0;
 var stopwatch_s=0;
@@ -35,7 +35,7 @@ function checkIndex(btn_id)
             break;
         }
         case "nav-btn-3":{
-            clockIndex = 3;
+            // clockIndex = 3;
             document.getElementsByClassName("clock-main")[0].id = "id-timer";
             clearInterval(updatorClock);
             resetTimer();
