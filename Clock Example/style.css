@@ -36,7 +36,6 @@ li button{
 .clock-main{
     display: flex;
     padding-top: 100px;
-    width: max-content;
     justify-content: center;
     font-size: 7em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
