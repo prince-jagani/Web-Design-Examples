@@ -28,7 +28,7 @@ function checkIndex(btn_id)
             break;
         }
         case "nav-btn-2":{
-            clockIndex = 2;
+            // clockIndex = 2;
             document.getElementsByClassName("clock-main")[0].id = "id-stopwatch";
             clearInterval(updatorClock);
             resetStopWatch();
