@@ -1,1 +1,45 @@
+body{
+    background-color: darkgray;
+}
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+table{
+    /* border: 1px solid; */
+    padding: 0;
+}
+td{
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+}
+td button{
+    width: 100px;
+    height: 100px;
+    border: none;
+    font-size: 95px;
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.winnerPage {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 2px 2px;
+    align-content: center;
+    justify-content: center;
+}
+.winnerPage button {
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
