@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table class="game-base">
+            <tr>
+                <td><button id="a11" onclick="getBox(this.id)"></button></td>
+                <td><button id="a12" onclick="getBox(this.id)"></button></td>
+                <td><button id="a13" onclick="getBox(this.id)"></button></td>
+            </tr>
+            <tr>
+                <td><button id="a21" onclick="getBox(this.id)"></button></td>
+                <td><button id="a22" onclick="getBox(this.id)"></button></td>
+                <td><button id="a23" onclick="getBox(this.id)"></button></td>
+            </tr>
+            <tr>
+                <td><button id="a31" onclick="getBox(this.id)"></button></td>
+                <td><button id="a32" onclick="getBox(this.id)"></button></td>
+                <td><button id="a33" onclick="getBox(this.id)"></button></td>
+            </tr>
+        </table>
+        <div class="winnerPage" id="winnerPageId">
+            <h1 id="winnerText">Winner</h1>
+            <button type="button" onclick="window.location.reload()">X</button>
+        </div>
+    </div>
 
+    <script src="main.js"></script>
+
+</body>
+</html>
