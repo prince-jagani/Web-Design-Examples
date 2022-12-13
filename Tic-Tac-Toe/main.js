@@ -1,4 +1,4 @@
-var arr = [[,,],[,,],[,,]];
+var arr = [[,,],[,,],[,,]]; //defining 3x3 2D array
 
 var tictac = "";
 var winner;
