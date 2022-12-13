@@ -24,6 +24,7 @@
 - Simple Login/Sign Up Form with HTML/CSS/JS including some basic Animations
 
 #### Output for [Tic-Tac-Toe Game](https://prince-jagani.github.io/Web-Design-Examples/Tic-Tac-Toe/)
+- Tic-Tac-Toe Game made with JavaScript
 
 >
 > Source code for all examples are available completely on GitHub...
