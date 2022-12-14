@@ -129,6 +129,7 @@ function checkWinner() {
     if(winner != 0) showWinner(winner);
     if(!boxValues[0].includes("") && !boxValues[1].includes("") && !boxValues[2].includes("")) {
         showWinner(winner);
+    }
 }
 
 function showWinner(winner) {
