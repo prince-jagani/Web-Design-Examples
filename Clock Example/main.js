@@ -178,6 +178,10 @@ function timerFunc(){
         document.getElementById("strt-timer-btn").innerHTML = "Start";    
     }
     else{
+        if(timer_s==0) {
+            timer_s = 59;
+            timer_m--;
+        }
     timer_s--;
     if (timer_s == 0) {     timer_m--;  timer_s = 59;   }
     if (timer_m == 0) {     timer_h--;  timer_m = 59;   }
