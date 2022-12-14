@@ -135,5 +135,8 @@ function showWinner(winner) {
     var winName = "";
     document.getElementById("winnerPageId").style.display = 'flex';
         winName = "Player " + winner + " is Winner"; 
+    if(winner == 0) {
+            winName = "Draw";
+        }
         document.getElementById("winnerText").innerHTML = winName;
 }
